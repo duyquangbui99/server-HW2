@@ -9,6 +9,7 @@
 
 2. **Testing Protected Routes**
 
+<img width="858" alt="Screenshot 2025-01-30 at 7 14 25 PM" src="https://github.com/user-attachments/assets/1838dc0c-951c-428f-9405-d2c04ac3bd88" />
    
 3. **Adding and View Data**
 
