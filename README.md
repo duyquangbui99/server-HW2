@@ -3,7 +3,9 @@
 ## Assignment Requirements and Fulfillment
 
 1. **User Authentication**
-
+- POST request to /register.
+- The request sends a JSON body with a username and password.
+- The server responds with 201 Created, confirming successful registration and returning the user details.
 <img width="902" alt="register" src="https://github.com/user-attachments/assets/6cb40380-9a51-445e-a653-2ba3d38b2012" />
 <img width="869" alt="Login" src="https://github.com/user-attachments/assets/498c7456-c8f5-4f3a-a793-6ad100b993cc" />
 
