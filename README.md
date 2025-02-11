@@ -7,6 +7,7 @@
 - The request sends a JSON body with a username and password.
 - The server responds with 201 Created, confirming successful registration and returning the user details.
 <img width="902" alt="register" src="https://github.com/user-attachments/assets/6cb40380-9a51-445e-a653-2ba3d38b2012" />
+
 -  POST request to /login.
 -  The request includes a username and password in the JSON body.
 -  The server responds with 200 OK, confirming successful authentication and returning a JWT token for authorization.
