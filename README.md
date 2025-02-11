@@ -14,7 +14,9 @@
 <img width="869" alt="Login" src="https://github.com/user-attachments/assets/498c7456-c8f5-4f3a-a793-6ad100b993cc" />
 
 2. **Testing Protected Routes**
-
+- GET request to /students.
+- The request was sent without authorization, resulting in a 401 Unauthorized response.
+- The server requires a JWT token for authentication, as indicated by the error message: "Token required."
 <img width="858" alt="Screenshot 2025-01-30 at 7 14 25 PM" src="https://github.com/user-attachments/assets/1838dc0c-951c-428f-9405-d2c04ac3bd88" />
    
 3. **Adding and View Data**
