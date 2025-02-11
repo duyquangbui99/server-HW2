@@ -35,7 +35,9 @@
 - The server responds with 403 Forbidden, indicating that the token is invalid or expired, preventing access to the protected route.
 <img width="863" alt="JWTExprired" src="https://github.com/user-attachments/assets/b7cd77e5-8e35-4683-bc0e-64d1cae43f96" />
 
-
+- POST request to /enrollments.
+- The request includes a JSON body with studentId and courseId.
+- The server responds with 400 Bad Request, indicating that the provided studentId is invalid and does not exist.
 <img width="855" alt="badStudentID" src="https://github.com/user-attachments/assets/9673e882-c615-460a-b6dd-b3438e3d8bd0" />
 
 ** Quang bui **
