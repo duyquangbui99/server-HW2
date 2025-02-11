@@ -31,8 +31,11 @@
 <img width="868" alt="getallstudents" src="https://github.com/user-attachments/assets/e6955c6d-a271-435a-b00b-b6145bf35877" />
 
 4. **Handling Errors**
-
+- GET request to /students with a Bearer Token for authentication.
+- The server responds with 403 Forbidden, indicating that the token is invalid or expired, preventing access to the protected route.
 <img width="863" alt="JWTExprired" src="https://github.com/user-attachments/assets/b7cd77e5-8e35-4683-bc0e-64d1cae43f96" />
+
+
 <img width="855" alt="badStudentID" src="https://github.com/user-attachments/assets/9673e882-c615-460a-b6dd-b3438e3d8bd0" />
 
 ** Quang bui **
