@@ -20,12 +20,14 @@
 <img width="858" alt="Screenshot 2025-01-30 at 7 14 25 PM" src="https://github.com/user-attachments/assets/1838dc0c-951c-428f-9405-d2c04ac3bd88" />
    
 3. **Adding and View Data**
-- POST request to /students on localhost:3000 using Postman.
+- POST request to /students.
 - The request includes a JSON body with a student's name and email.
 - The server responds with 201 Created, confirming that the student was successfully added and returning their details, including an assigned ID.
 <img width="882" alt="addstudent" src="https://github.com/user-attachments/assets/5d8b401c-d386-4b24-bb79-1249ffec7308" />
 
-
+- GET request to /students.
+- The request includes an authorization token, allowing access to the protected route.
+- The server responds with 200 OK, returning a list of students, including their IDs, names, and emails.
 <img width="868" alt="getallstudents" src="https://github.com/user-attachments/assets/e6955c6d-a271-435a-b00b-b6145bf35877" />
 
 4. **Handling Errors**
